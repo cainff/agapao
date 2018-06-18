@@ -9,6 +9,7 @@ module.exports = {
   //user     : 'root',
   //password : 'root',
   password : 'Dev32017_agapao!',
+  
   //port     : '/Applications/MAMP/tmp/mysql/mysql.sock',
   port     : '3306',
   //database : 'agapao'
