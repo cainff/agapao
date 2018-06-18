@@ -44,6 +44,10 @@ module.exports = function(app){
     server.use(bodyParser.urlencoded({ // to support URL-encoded bodies
         extended: true
     }));
+    server.use((req, res, next) => {
+        res.header('Access-Control-Allow-Origin', '*');
+        next();
+    })
 
     server.get('/api/members', function(req, res){
         
