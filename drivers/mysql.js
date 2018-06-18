@@ -7,7 +7,7 @@ module.exports = {
   host     : 'mjm-webdesign.com',
   user     : 'dev32017_agapao',
   //user     : 'root',
-  //password : 'root',
+  //password : 'root', 
   password : 'Dev32017_agapao!',
   //port     : '/Applications/MAMP/tmp/mysql/mysql.sock',
   port     : '3306',
